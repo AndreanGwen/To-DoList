@@ -1,5 +1,12 @@
-var yourname = prompt ('Sebutkan nama mu😊');
-alert ('Halo ' + yourname);
+document.addEventListener("DOMContentLoaded", function () {
+    var yourname = prompt('Sebutkan nama mu😊');
+    if (yourname) { // Pastikan user mengisi nama
+        var message = 'Halo ' + yourname;
+        document.getElementById('ucapan').innerText = message;
+    }
+});
+
+
 const inputbox = document.getElementById("input-box");
 const listcontainer = document.getElementById("list-container");
 

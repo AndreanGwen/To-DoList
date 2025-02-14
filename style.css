@@ -12,6 +12,16 @@
     padding: 10px;
 }
 
+.halonama {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+#ucapan {
+    color: #fff;
+}
+
 .todolist img {
     /* display: flex; */
     width: 27px;
@@ -28,6 +38,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 20px;
+    margin-top: 15px;
 }
 
 .todolist h2 {
