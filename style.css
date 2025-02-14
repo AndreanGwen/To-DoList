@@ -128,3 +128,9 @@ ul li span {
 ul li span:hover {
     background: #edeff0;
 }
+
+@media screen and (max-width: 1080px) {
+    .container {
+        max-width: 90%;
+    }
+}
