@@ -7,12 +7,12 @@
 
 .container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 100vw;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 20px;
-    justify-content: center;
+    padding: 50px;
+    /* justify-content: center; */
     flex-direction: column;
 }
 
