@@ -89,6 +89,7 @@ ul li::before {
     background-position: center;
     top: 9px;
     left: 8px;
+    opacity: 0.2;
 }
 
 ul li.cek {
@@ -98,4 +99,21 @@ ul li.cek {
 
 ul li.cek::before {
     background-image: url(images/checklist.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: 555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #edeff0;
 }
