@@ -1,3 +1,5 @@
+var yourname = prompt ('Sebutkan nama mu😊');
+alert ('Halo ' + yourname);
 const inputbox = document.getElementById("input-box");
 const listcontainer = document.getElementById("list-container");
 
