@@ -8,11 +8,11 @@
 .container{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 10px;
-    justify-content: flex-start;
+    padding: 20px;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -36,13 +36,13 @@
 }
 
 .todolist {
-    width: 100%;
-    max-width: 540px;
+    width: 90%;
+    max-width: 400px;
     background: #fff;
     margin: 20px auto;
-    padding: 40px 30px 70px;
+    padding: 30px;
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .todolist h2 {
@@ -133,8 +133,17 @@ ul li span:hover {
     background: #edeff0;
 }
 
-@media screen and (max-width: 1080px) {
+
+@media screen and (max-width: 768px) {
     .container {
-        max-width: 90%;
+        padding: 10px;
+    }
+    .todolist {
+        width: 95%;
+        padding: 20px;
+    }
+    button {
+        width: 100%; /* Tombol lebih besar untuk mobile */
+        padding: 12px;
     }
 }
